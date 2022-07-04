@@ -1,5 +1,5 @@
 <template>
-  <div class="my-opacity">
+  <div class="my-opacity p-3">
     <div class="container d-flex justify-content-between align-items-center  ">
       <div class="">
         <img src="../../public/img/avada-drivers-logo-2x-300x58.png" alt="">
@@ -56,6 +56,4 @@ a {
   border-radius: 5px;
   padding: 0.2rem;
 }
-
-
 </style>

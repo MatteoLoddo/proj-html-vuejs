@@ -19,16 +19,16 @@ export default {
     TheHeader,
     TheMain,
     TheFooter,
-}
+  }
 }
 </script>
 
 <style lang="scss">
 #app {}
 
-.bg-footer{
+.bg-footer {
   background-image: url(../public/img/testimonial-background.jpg);
   background-position: center;
-  
+
 }
 </style>

@@ -1,7 +1,6 @@
 <template>
   <div class="bg-header  ">
-    <TheNavBar 
-    :nav-bar-list="NavBarList">
+    <TheNavBar :nav-bar-list="NavBarList">
     </TheNavBar>
     <div class="container text-light ptb-10">
       <h1>Drive with Avada</h1>
@@ -13,36 +12,36 @@
 
 <script>
 import TheNavBar from './TheNavBar.vue'
-export default{
-  components:{
+export default {
+  components: {
     TheNavBar
   },
-  data(){
-    return{
-      NavBarList:[
+  data() {
+    return {
+      NavBarList: [
         {
-          title:"Home",
-          info:"",
+          title: "Home",
+          info: "",
         },
         {
-          title:"About",
-          info:"",
+          title: "About",
+          info: "",
         },
         {
-          title:"Prices",
-          info:"",
+          title: "Prices",
+          info: "",
         },
         {
-          title:"Courses",
-          info:"New",
+          title: "Courses",
+          info: "New",
         },
         {
-          title:"Location",
-          info:"",
+          title: "Location",
+          info: "",
         },
         {
-          title:"Blog",
-          info:"",
+          title: "Blog",
+          info: "",
         },
       ]
     }
@@ -51,14 +50,15 @@ export default{
 </script>
 
 <style lang="scss" scoped>
-.bg-header{
+.bg-header {
   background-image: url(../../public/img/homepage-hero-background.jpg);
   object-fit: contain;
   background-repeat: no-repeat;
   background-position: center;
-  
+
 }
-.ptb-10{
-  padding:10rem 0 10rem 0;
+
+.ptb-10 {
+  padding: 10rem 0 10rem 0;
 }
 </style>
