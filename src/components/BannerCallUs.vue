@@ -1,7 +1,7 @@
 <template>
-    <div class="my-bg-banner">
-        <div class="container d-flex justify-content-between">
-          <div class="p-5">
+    <div class="my-bg-banner text-light">
+        <div class="container d-flex justify-content-between pt-5 pb-5">
+          <div class="">
             <span class="fs-1">
                 Start Learning to Drive Today
             </span>
@@ -9,7 +9,7 @@
                 Give us a call to schedule yourfirst driving lesson
             </span>
           </div>
-          <span class="fs-1 d-block p-5">1-800-555-555</span>
+          <span class="fs-1">1-800-555-555</span>
         </div>
     </div>
 </template>
@@ -30,7 +30,5 @@ export default{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-    
-
 };
 </style>

@@ -11,7 +11,7 @@
             <span class="info-items" v-if="items.info">{{ items.info }}</span>
           </li>
         </ul>
-        <button class="btn btn-primary">BOOK NOW</button>
+        <button class="my-button">BOOK NOW</button>
       </div>
     </div>
   </div>

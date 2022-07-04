@@ -24,7 +24,10 @@ export default {
 </script>
 
 <style lang="scss">
-#app {}
+@import './assets/scss/main';
+#app {
+
+}
 
 .bg-footer {
   background-image: url(../public/img/testimonial-background.jpg);

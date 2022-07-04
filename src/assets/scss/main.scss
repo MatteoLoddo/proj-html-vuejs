@@ -1,0 +1,16 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+$Primary-Color:#6B9F5A;
+
+.my-button {
+  color: #fff;
+  font-weight: 500;
+  border-radius: 20px;
+  background-color:$Primary-Color;
+  border: none;
+  padding:0.5rem;
+  &:hover{
+    color: #fff;
+    background-color: rgba($Primary-Color, 0.8);
+  }
+}

@@ -17,22 +17,24 @@
           <input class="m-2 w-75" type="text">
           <input class="m-2 w-75" type="text">
           <input class="m-2 w-75" type="text">
+          <button class="btn my-button ">Request a callback</button>
         </div>
 
       </div>
     </div>
   </div>
-    <BannerCallUs>
+    <BannerCallUs></BannerCallUs>
+    <OurCourses></OurCourses>
 
-    </BannerCallUs>
 </div>
 </template>
 
 <script>
+import OurCourses from '../components/OurCourses.vue'
 import BannerCallUs from '../components/BannerCallUs.vue';
 export default {
   components: {
-    BannerCallUs,
+    BannerCallUs,OurCourses,
   },
   data() {
     return {
@@ -44,11 +46,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .my-card {
   box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
   text-align: center;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 15px;
   position: absolute;
   right: 5%;
   top: -60px;
@@ -57,5 +60,6 @@ export default {
   h3 {
     color: #6B9F5A;
   }
+
 }
 </style>
