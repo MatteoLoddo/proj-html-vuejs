@@ -3,7 +3,15 @@
     <div class="container p-5">
       <div class="row">
         <div class="col" v-for="course in OurCourseList" :key="course.title">
-          <img :src="course.img"  :alt="course.title">
+          <div class="my-card">
+            <img :src="course.CourseImg" :alt="course.title">
+            <div class="myhover">
+              <h2>{{ course.title }}</h2>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus nesciunt repellat quia iure reiciendis
+                rem, consectetur voluptatem earum. Recusandae, provident.</p>
+              <button class="my-button">course information</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -14,22 +22,22 @@
 export default {
   data() {
     return {
-      OurCourseList:[
+      OurCourseList: [
         {
-          img:"course-intensive.jpg",
-          title:"Course",
+          CourseImg: "/img/courses-passplus-200x200.jpg",
+          title: "Course",
         },
         {
-          img:"course-passplus-400x399.jpg",
-          title:"Pass Plus",
+          CourseImg: "/img/course-intensive-200x200.jpg",
+          title: "Pass Plus",
         },
         {
-          img:"course-intensive.jpg",
-          title:"Intensive Course",
+          CourseImg: "/img/courses-instructor-200x200.jpg",
+          title: "Intensive Course",
         },
         {
-          img:"courses-instructor.jpg",
-          title:"Instructors",
+          CourseImg: "/img/course-intensive-200x200.jpg",
+          title: "Instructors",
         }
       ]
     }
@@ -44,11 +52,33 @@ export default {
   background-position: center;
   background-size: cover;
 
+}
+
+.col {
+  img {
+    width: 100%;
+
+  }
+
+  &:hover {
+    img{
+    display: none;
+    }
+
+    .myhover {
+      display: block;
+    }
+  }
+
 
 }
-col{
-  img{
-    width: 100%
+
+
+.myhover {
+  display: none;
+
+  :hover {
+    display: block;
   }
 }
 </style>
