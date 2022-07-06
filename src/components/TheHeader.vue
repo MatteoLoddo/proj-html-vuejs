@@ -5,7 +5,6 @@
     <div class="container text-light ptb-10">
       <h1>Drive with Avada</h1>
       <h5>We Offer the finest driving tution money con buy</h5>
-
     </div>
   </div>
 </template>

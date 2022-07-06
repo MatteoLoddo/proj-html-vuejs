@@ -23,7 +23,7 @@
       </div>
     </div>
   </div>
-    <BannerCallUs></BannerCallUs>
+    <BannerCallUs class="mt-5"></BannerCallUs>
     <OurCourses></OurCourses>
 
 </div>
